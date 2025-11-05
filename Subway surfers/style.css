@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+@font-face {
+    font-family: 'upheavtt' ;
+    src: url("upheaval/upheavtt.ttf") format("truetype");
+    font-weight: normal;
+    font-style:  normal;
+}
+
+body{
+   background-image: linear-gradient(to right, #ffb703,#fb8500);
+   background-attachment: fixed;
+}
+
+h1 {
+    color:#dad886;
+    background-color:#e9c46a;
+    text-align: center;
+    box-shadow: 2px 2px 5px #686740b6;
+    font-family: 'Honk', sans-serif;
+}
+h2 {
+    color:#594F46;
+    font-family: 'Honk', sans-serif;
+    font-weight: normal;
+    font-style:  normal;
+}
+p{
+    color:#242222 ;
+    text-align: justify;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style:  normal;
+}    
+main{
+    background-color: white;
+    box-shadow: 5px 5px 15px #ff595fcc;
+    height: auto;
+    width: 800px;
+    padding: 12px;
+    margin:auto;
+}
+
+/* Ordem da shorthand font/ font style> font wheight> font size> font family.*/
